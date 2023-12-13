@@ -3,6 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #ffffff; /* Fondo general */
     color: #333; /* Color de texto principal */
+    text-align: justify; /* Justificar texto */
 }
 
 /* Estilos para el encabezado */
