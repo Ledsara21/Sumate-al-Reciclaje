@@ -27,7 +27,6 @@ header {
 }
 
 nav {
-     /* Verde más claro para la barra de navegación */
     margin-top: 30px;
 }
 
@@ -131,4 +130,39 @@ a:hover {
     padding: 15px;
     max-width: 700px; /* Ancho máximo del contenedor */
     margin: 0 auto; /* Centrar horizontalmente */
+}
+
+
+/* Estilos para pantallas más grandes (escritorio) */
+@media only screen and (min-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Estilos para pantallas más pequeñas (móviles) */
+  @media only screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+  /* Estilos predeterminados para todas las pantallas */
+body {
+  font-size: 16px;
+}
+
+/* Estilos para pantallas más pequeñas (360x740) */
+@media only screen and (max-width: 360px) and (max-height: 740px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    font-size: 1.5em; 
+  }
+
+  .search-bar input {
+    width: 50%; 
+  }
 }
